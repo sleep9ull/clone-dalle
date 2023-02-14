@@ -20,7 +20,7 @@ const Home = () => {
     const fetchPosts = async () => {
       setLoading(true)
       try {
-        const response = await fetch('https://clone-dalle.onrender.com/api/v1/posts', {
+        const response = await fetch('https://sea-turtle-app-4b4gt.ondigitalocean.app/api/v1/posts', {
           method: 'GET',
           header: {
             'Content-Type': 'application/json',
